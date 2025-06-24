@@ -1,0 +1,32 @@
+div.container{
+    display: grid;
+    grid-template-rows: 100px 50px 60% 50px;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: normal normal;
+    place-content: normal normal;
+}
+
+.caixa1 {
+    background-color: blue;
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.caixa2 {
+    background-color: green;
+    grid-area: 2 / 1 / 3 / 4;
+}
+
+.caixa3 {
+    background-color: aqua;
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+.caixa4 {
+    background-color: brown;
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.caixa5 {
+    background-color: blueviolet;
+    grid-area: 4 / 1 / 5 / 4;
+}
